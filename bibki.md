@@ -11,7 +11,6 @@ WHERE 3 > (SELECT COUNT(DISTINCT e2.Salary)
 
 
 193:
-```sql
 select b.id
 from Weather a
 cross join Weather b
