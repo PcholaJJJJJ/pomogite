@@ -1,4 +1,3 @@
-185:
 ```sql
 185
 SELECT d.Name AS Department, e1.Name AS Employee, e1.Salary
@@ -21,7 +20,6 @@ and b.temperature - a.temperature > 0
 
 
 570:
-```sql
 SELECT name 
 FROM Employee 
 WHERE id 
@@ -37,7 +35,6 @@ IN
 
 
 1193:
-```sql
 SELECT 
     TO_CHAR(trans_date, 'YYYY-MM') AS month,
     country,
@@ -55,7 +52,6 @@ GROUP BY
 
 
 1070:
-```sql
 SELECT product_id, year AS first_year, quantity, price
 FROM Sales
 WHERE 
